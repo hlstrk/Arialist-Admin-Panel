@@ -9,7 +9,7 @@ namespace Panel.Dal.Concrete.EntityFramework.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=HALISPC;Initial Catalog=Arialist_DB;Integrated Security=true;Trust Server Certificate=true;");
-            // optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=Panel_DB;Integrated Security=false;User ID=sa;Password=Sony46464646aa..;Connection Timeout=30;Trust Server Certificate=true;");
+            // optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=Panel_DB;Integrated Security=false;Connection Timeout=30;Trust Server Certificate=true;");
 
         }
 
